@@ -1,10 +1,12 @@
 #include<iostream>
+#include"helloclass.h"
 
 using namespace std;
 
 int main()
 {
-cout<<"Hello class!"<<endl;
+helloclass Hc;
+Hc.sayhello();
 return 0;
 }
 
